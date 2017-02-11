@@ -6,13 +6,104 @@ section.first h1 {
   /*"Relaxr" - Extra bold, 24px*/
   font-weight: 800;
   font-size: 24px;
+  color: white;
 }
 section.first p {
   font-weight: 600;
   font-size: 24px;
+  text-align: center;
+  color: white;
 }
 
 section.first {
   background: url("../img/header.jpg") no-repeat;
-  height: 100vh;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+section.first button{
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  background-color: #f9e42e;
+}
+
+section.second h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+section.second h2.description {
+  font-weight: 200;
+  font-size: 13px;
+}
+
+section.second ul{
+  font-weight: 200;
+  font-size: 13px;
+}
+
+section.second {
+  background-color: #f0efef;
+}
+
+section.third {
+  background: url("../img/testimonial.jpg") no-repeat;
+
+}
+
+section.third p.quote {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+section.third p.amanda {
+  font-weight: 600px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+section.fourth {
+  background: #f9e42e;
+}
+
+section.fourth button {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  border: none;
+  display: block;
+  margin: 0 auto;
+
+}
+
+section.fifth {
+  background: #121212;
+}
+
+section.fifth p.logo {
+  color: yellow;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+}
+
+section.fifth p.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+section.fifth img {
+  margin: center;
 }
