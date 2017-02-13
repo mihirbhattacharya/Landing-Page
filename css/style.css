@@ -1,27 +1,37 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: light;
 }
-section.first h1 {
-  /*"Relaxr" - Extra bold, 24px*/
+
+
+.first h1 {
   font-weight: 800;
   font-size: 24px;
   color: white;
+  padding-left: 100px;
+  padding-top: 50px;
 }
-section.first p {
+
+.first p {
   font-weight: 600;
   font-size: 24px;
   text-align: center;
   color: white;
 }
 
-section.first {
+.first {
   background: url("../img/header.jpg") no-repeat;
   background-position: center;
   background-size: 100% auto;
+  height: 400px;
+
 }
 
-section.first button{
+.first button{
   font-size: 14px;
   font-weight: 800;
   border-radius: 5px;
@@ -29,33 +39,46 @@ section.first button{
   display: block;
   margin: 0 auto;
   background-color: #f9e42e;
+  margin-top: 50px;
+  padding: 10px 30px;
 }
 
-section.second h2 {
+.second h2 {
   font-size: 20px;
   font-weight: 600;
+  padding-top: 100px;
+  padding-left: 150px;
 }
 
-section.second h2.description {
+.second h2-description {
   font-weight: 200;
   font-size: 13px;
 }
 
-section.second ul{
-  font-weight: 200;
-  font-size: 13px;
+.bullet {
+  padding-left: 150px;
+  padding-top: 40px;
 }
 
-section.second {
+.second ul{
+  font-weight: 200;
+  font-size: 13px;
+  padding-top: 30px;
+}
+
+.second {
   background-color: #f0efef;
+  height: 400px;
 }
 
-section.third {
+.third {
   background: url("../img/testimonial.jpg") no-repeat;
+  background-size: 100% auto;
+  height: 300px;
 
 }
 
-section.third p.quote {
+.third p.quote {
   font-weight: 200;
   font-style: italic;
   font-size: 18px;
@@ -63,47 +86,64 @@ section.third p.quote {
   color: white;
 }
 
-section.third p.amanda {
+.third p.amanda {
   font-weight: 600px;
   font-size: 18px;
   text-align: center;
   color: white;
 }
 
-section.fourth {
-  background: #f9e42e;
+.amanda-quote {
+  padding-top: 120px;
 }
 
-section.fourth button {
+.fourth {
+  background: #f9e42e;
+  height: 150px;
+  width: 100%;
+}
+
+.fourth button {
   font-weight: 800;
   font-size: 12px;
   border-radius: 5px;
   background-color: #033048;
   color: white;
   border: none;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  margin-left: 44%;
+  padding: 10px 30px;
+  margin-top: 55px;
 
 }
 
-section.fifth {
+.fifth {
   background: #121212;
+  height: 250px;
+  width: 100%
 }
 
-section.fifth p.logo {
+.fifth p.logo {
   color: yellow;
   font-weight: 800;
   font-size: 24px;
   text-align: center;
+  padding-top: 15px;
 }
 
-section.fifth p.copyright {
+.fifth p.copyright {
   font-size: 9px;
   font-weight: 600;
   color: white;
   text-align: center;
 }
 
-section.fifth img {
+.fifth img {
   margin: center;
+  display: inline-block;
+  position: relative;
+  left: 47%;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
 }
